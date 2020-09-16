@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <meta property="og:title" content="I'm hella gay">
+        <meta property="og:description" content="that just confirmed it">
+        <meta property="og:image" content="https://i.imgur.com/nhTJ5cA.png">
+        <meta property="og:url" content="https://imhella.gay">
+        <meta name="twitter:card" content="summary_large_image">
+
+        <meta property="og:site_name" content="I'm hella gay">
+        <meta name="twitter:image:alt" content="Yup">
+
+        <title>I'm Hella Gay</title>
+        <meta name="description" content="Yep. that just confirmed it.">
+        <link rel="icon" href="/yup.gif" type="image/gif" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Raleway:wght@700&display=swap" rel="stylesheet"> 
+        <style>
+            section, html, body {
+                width: 100vw;
+                height: 100vh;
+                display: flex;
+                flex-direction:column;
+                align-items: center;
+                justify-content: center;
+                font-family: 'Raleway', sans-serif;
+            }
+            #shadowBox {
+                background-color: rgb(255, 255, 255);
+                background-color: rgba(255, 255, 255, 0.2);
+            }
+
+            .rainbow {
+                text-align: center;
+                text-decoration: underline;
+                font-size: 200px;
+                font-family:'Lobster', cursive;
+                letter-spacing: 5px;
+            }
+            .rainbow_text_animated {
+                background: linear-gradient(to right, #6666ff, #0099ff , #00ff00, #ff3399, #6666ff);
+                -webkit-background-clip: text;
+                background-clip: text;
+                color: transparent;
+                animation: rainbow_animation 3s ease-in-out infinite;
+                background-size: 400% 100%;
+            }
+
+            .confirm {
+                position: fixed;
+                bottom: 20px;
+                left: 50%;
+                transform: translateX( -50% );
+                text-align: center;
+            }
+
+            @keyframes rainbow_animation {
+                0%,100% {
+                    background-position: 0 0;
+                }
+
+                50% {
+                    background-position: 100% 0;
+                }
+            }
+        </style>    
+    </head>
+    <body>
+        <section>
+            <div id="shadowBox">
+                <h3 class="rainbow rainbow_text_animated">Yep</h3>
+            </div>
+            <div class="confirm"><h3>that just confirmed it</h3></div>
+        </section>
+    </body>
+</html>
